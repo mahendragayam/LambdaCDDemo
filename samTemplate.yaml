@@ -16,8 +16,8 @@ Resources:
         getAZsAPI:
           Type: Api
           Properties:
-            Path: /getazs
+            Path: /getdetails
             Method: get
       Environment:
         Variables:
-          REGION: ap-south-1
+          REGION: us-east-1
