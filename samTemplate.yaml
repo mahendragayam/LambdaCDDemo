@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: '2010-09-09'
 Transform: 'AWS::Serverless-2016-10-31'
 Description: CD Demo Lambda test1
 Resources:
-  CDDemoLambdav2:
+  CDDemoLambdav3:
     Type: 'AWS::Serverless::Function'
     Properties:
       Handler: lambda_function.lambda_handler
@@ -16,7 +16,7 @@ Resources:
         getAZsAPI:
           Type: Api
           Properties:
-            Path: /getdetails
+            Path: /getdetailsv1
             Method: get
       Environment:
         Variables:
