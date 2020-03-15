@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: 'AWS::Serverless-2016-10-31'
-Description: CD Demo Lambda test2
+Description: CD Demo Lambda test3
 Resources:
   CDDemoLambdav3:
     Type: 'AWS::Serverless::Function'
